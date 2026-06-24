@@ -43,11 +43,15 @@ Document at least 3 bugs you found. Add rows as needed.
   and what it showed you about your code.
 - Did AI help you design or understand any tests? How?
 
+I decided whether a bug was really fixed by reviewing the suggested changes, running the tests, and manually testing the game. A manual test I ran was by playing the game myself and using the debugger info to guess below, above, and at the right number. AI helped me design tests that specifically addressed the bug I collaborated with it to fix.
+
 ---
 
 ## 4. What did you learn about Streamlit and state?
 
 - How would you explain Streamlit "reruns" and session state to a friend who has never used Streamlit?
+
+Rerunning Streamlit is like updating your game to the new version, so that any changes made to the game are added to your end.
 
 ---
 
@@ -57,3 +61,7 @@ Document at least 3 bugs you found. Add rows as needed.
   - This could be a testing habit, a prompting strategy, or a way you used Git.
 - What is one thing you would do differently next time you work with AI on a coding task?
 - In one or two sentences, describe how this project changed the way you think about AI generated code.
+
+- One strategy I want to reuse in future labs is utilizing Copilot to generate test cases to validate bug fixes.
+- Something I would do differently next time is ask the AI I'm working with to explain its logic or pseudocode first before implementing the solutions.
+- This project changed the way I think about AI generated code by introducing me to new ways to work with AI beyond just asking it to fix a bug or generate code for me. I learned it can also help write and run tests, as well as work across multiple files.
