@@ -30,6 +30,10 @@ Document at least 3 bugs you found. Add rows as needed.
 - Give one example of an AI suggestion that was correct (including what the AI suggested and how you verified the result).
 - Give one example of an AI suggestion that was incorrect or misleading (including what the AI suggested and how you verified the result).
 
+- For this project, I used Copilot for bug fixes and ChatGPT to help me understand the code logic
+- One AI suggestion that was correct was Copilot's movement of function logic from app.py into logic_utils.py. I verified this result by reading over the changed code myself before accepting the suggestion, running the tests, and understanding Copilot's reasoning for the changes.
+- One example of an AI suggestion that was incorrect was Copilot's suggestions in app.py after moving function logic into logic_utils.py. It changed the logic of the functions, but did not change the message, so the hints were still flipped. I verified this result by reading the code suggestion before accepting it and testing the game myself in my browser.
+
 ---
 
 ## 3. Debugging and testing your fixes
