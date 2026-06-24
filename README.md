@@ -26,8 +26,12 @@ It wrote the code, ran away, and now the game is unplayable.
 ## 📝 Document Your Experience
 
 - [ ] Describe the game's purpose.
+The game's purpose
 - [ ] Detail which bugs you found.
+I found bugs in the hint displayed when the number was inacurate and ending the game once the correct number was found.
 - [ ] Explain what fixes you applied.
+I fixed the functions in app.py that checked the user input and moved them into logic_utils. Then I fixed app.py to display the correct hint/message.
+
 
 ## 📸 Demo Walkthrough
 
