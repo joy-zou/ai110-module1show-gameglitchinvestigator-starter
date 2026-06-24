@@ -8,15 +8,19 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 - List at least two concrete bugs you noticed at the start  
   (for example: "the hints were backwards").
 
+- attempts do not decrease after the first try, only after the second
+- hints are backwards
+- game does not end when secret is guessed
+
 **Bug Reproduction Log**
 
 Document at least 3 bugs you found. Add rows as needed.
 
 | Input | Expected Behavior | Actual Behavior | Console Output / Error |
 |-------|-------------------|-----------------|------------------------|
-| | | | |
-| | | | |
-| | | | |
+| 50 | Go Lower | Go Higher | none |
+| 20 | Go Higher | Go Lower | none |
+| 10 | Go Higher | Go Lower | none |
 
 ---
 
